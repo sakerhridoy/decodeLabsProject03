@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Saker Ahmed | Frontend Developer</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container nav-wrapper">
+
+      <div class="logo">
+        <a href="#home">Saker</a>
+      </div>
+
+      <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="menuBtn" aria-label="Open Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <button id="darkBtn" aria-label="Dark Mode">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="container">
+
+      <div class="hero-text">
+        <h1>Hi, I'm Saker Ahmed</h1>
+
+        <p>
+          Frontend Developer • UI Designer • React Learner
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="#contact" class="btn outline">Hire Me</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--  ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+
+      <div class="about-content">
+        <h2>About Me</h2>
+
+        <p>
+          I am a passionate Frontend Developer focused on building modern,
+          responsive and user-friendly websites using HTML, CSS,
+          JavaScript and React.
+        </p>
+
+        <p>
+          I love turning creative ideas into real products and always learning
+          new technologies to improve my development skills.
+        </p>
+
+        <a href="#contact" class="btn">Let's Work Together</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="container">
+
+      <h2>My Skills</h2>
+
+      <div class="grid">
+
+        <div class="card">
+          <i class="fa-brands fa-html5"></i>
+          <h3>HTML5</h3>
+        </div>
+
+        <div class="card">
+          <i class="fa-brands fa-css3-alt"></i>
+          <h3>CSS3</h3>
+        </div>
+
+        <div class="card">
+          <i class="fa-brands fa-js"></i>
+          <h3>JavaScript</h3>
+        </div>
+
+        <div class="card">
+          <i class="fa-brands fa-react"></i>
+          <h3>React JS</h3>
+        </div>
+
+        <div class="card">
+          <i class="fa-brands fa-node-js"></i>
+          <h3>Node JS</h3>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+
+      <h2>Featured Projects</h2>
+
+      <div class="grid">
+
+        <div class="project">
+          <img src="images/ecommerce.png"
+            alt="Ecommerce Project" />
+
+          <h3>E-Commerce UI</h3>
+
+          <a href="https://e-commerce-react-eight-gules.vercel.app/" target="_blank">Live Demo</a>
+        </div>
+
+        <div class="project">
+          <img src="images/portfolio.png"
+            alt="Portfolio Project" />
+
+          <h3>Portfolio Website</h3>
+
+          <a href="https://my-portfolio-nine-mauve.vercel.app/" target="_blank">Live Demo</a>
+        </div>
+
+        <div class="project">
+          <img src="images/procleaning.png"
+            alt="Landing Page" />
+
+          <h3>Landing Page</h3>
+
+          <a href="https://pro-cleaning-web-landing-page-desig.vercel.app/" target="_blank">Live Demo</a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+
+      <h2>Contact Me</h2>
+
+      <form class="contact-form">
+
+        <input type="text" placeholder="Your Name" required />
+
+        <input type="email" placeholder="Your Email" required />
+
+        <textarea placeholder="Write your message..." required></textarea>
+
+        <button type="submit">Send Message</button>
+
+      </form>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Saker Ahmed | All Rights Reserved</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
